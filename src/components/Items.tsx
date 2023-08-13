@@ -9,6 +9,7 @@ const Items = () => {
           <Image
             src={item.img}
             alt={item.title}
+            priority={item.priority}
             className='w-fit rounded-t-2xl'
           />
           <div className='p-4'>

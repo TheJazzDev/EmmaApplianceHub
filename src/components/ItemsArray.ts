@@ -9,6 +9,7 @@ interface Item {
   title: string;
   img: any;
   desc: string;
+  priority?: boolean;
 }
 
 const ItemsArray: Item[] = [
@@ -17,18 +18,21 @@ const ItemsArray: Item[] = [
     title: 'Chairs',
     img: chairs,
     desc: 'This is a full set of chairs',
+    priority: true
   },
   {
     id: Math.random(),
     title: 'Television',
     img: television,
     desc: 'This is a Television',
+    priority: true
   },
   {
     id: Math.random(),
     title: 'Dining Chairs',
     img: dinning_set,
     desc: 'This is a full set of chairs',
+    priority: true
   },
   {
     id: Math.random(),
