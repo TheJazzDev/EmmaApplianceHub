@@ -1,15 +1,30 @@
 import Head from 'next/head';
+import Items from '../components/Items';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Starcoin - Home</title>
+        <title>Home</title>
       </Head>
-      <main className='flex h-screen flex-col items-center justify-center'>
-        <h1 className='text-3xl lg:text-7xl text-white text-center'>
-          Welcome to Starcoin!
+      <main className='mx-auto text-center my-16 px-4 max-w-[1750px]'>
+        <h1 className='text-4xl lg:text-5xl text-100 text-center'>
+          {' '}
+          Emma Appliance Hub
         </h1>
+        <p className='text-paragraph font-medium text-xl max-w-2xl lg:max-w-4xl mt-4 mb-8 mx-auto'>
+          Every item you see here are for sale at a very affordable price. If
+          you are interested in any of the iteams below, kindly hit me up on{' '}
+          <a
+            href='https://wa.link/4cev0b'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-300 italic'>
+            Whatapp
+          </a>
+          .{' '}
+        </p>
+        <Items />
       </main>
     </>
   );

@@ -2,12 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
+html, body {
+  background: #0D0D2B;
+}
 
-body {
-  background: #111111;
+::-webkit-scrollbar {
+  background-color: #112240;
+  width: 7px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background: #1690ff;
 }
