@@ -14,7 +14,8 @@ const Items = () => {
           />
           <div className='p-4'>
             <h2 className='text-100 text-2xl'>{item.title}</h2>
-            <p className='text-card-text mt-2'>{item.desc}</p>
+            <p className='text-card-text text-left mt-2'><span className='font-bold text-100'>Description: </span>{item.desc}</p>
+            <p className='text-card-text text-left mt-2'><span className='font-bold text-100'>Price: </span>{item.price}{item.price ? 'k' : 'Part of 230k Bed Frame Set'}</p>
           </div>
           {item.sold && (
             <Image

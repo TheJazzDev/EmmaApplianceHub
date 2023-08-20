@@ -10,7 +10,7 @@ export default function Home() {
       <main className='mx-auto text-center my-16 px-4 max-w-[1750px]'>
         <h1 className='text-4xl lg:text-5xl text-100 text-center'>
           {' '}
-          Emma Appliance Hub
+          Emmanuel's Appliances
         </h1>
         <p className='text-paragraph font-medium text-xl max-w-2xl lg:max-w-4xl mt-4 mb-8 mx-auto'>
           Every item you see here are for sale at a very affordable price. If
