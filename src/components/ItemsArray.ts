@@ -6,8 +6,6 @@ import washing from '../../public/asset/washing_machine.jpg';
 import sit_up from '../../public/asset/sit_up.jpg';
 import mattress1 from '../../public/asset/mattress1.jpg';
 import mattress2 from '../../public/asset/mattress2.jpg';
-// import side_drawer1 from '../../public/asset/side_drawer1.jpg';
-// import side_drawer2 from '../../public/asset/side_drawer2.jpg';
 import dress_mirror from '../../public/asset/dress_mirror.jpg';
 import bed_frame from '../../public/asset/bed_frame.jpg';
 import generator from '../../public/asset/generator.jpg';
@@ -112,20 +110,6 @@ const ItemsArray: Item[] = [
     img: dress_mirror,
     desc: 'Dressing Mirror + 3 Locker and a Dressing Stool',
   },
-
-  // {
-  //   id: Math.random(),
-  //   title: 'Side Drawer 1',
-  //   img: side_drawer1,
-  //   desc: 'Bed Frame Side Drawer 1',
-  // },
-  // {
-  //   id: Math.random(),
-  //   title: 'Side Drawer 2',
-  //   img: side_drawer2,
-  //   desc: 'Bed Frame Side Drawer 2',
-  // },
-
 ];
 
 export default ItemsArray;
