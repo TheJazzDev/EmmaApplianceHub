@@ -11,6 +11,7 @@ import bed_frame from '../../public/asset/bed_frame.jpg';
 import generator from '../../public/asset/generator.jpg';
 import sold from '../../public/asset/sold.webp';
 import ac_indoor from '../../public/asset/ac_indoor.jpg';
+import wardrobe from '../../public/asset/wardrobe.jpg';
 
 interface Item {
   id: number;
@@ -109,6 +110,13 @@ const ItemsArray: Item[] = [
     title: 'Dressing Mirror',
     img: dress_mirror,
     desc: 'Dressing Mirror + 3 Locker and a Dressing Stool',
+  },
+  {
+    id: Math.random(),
+    title: 'Waldrobe',
+    price: 40,
+    img: wardrobe,
+    desc: '3 Door waldrobe',
   },
 ];
 
