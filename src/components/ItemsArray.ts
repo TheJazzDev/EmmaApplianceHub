@@ -55,6 +55,7 @@ const ItemsArray: Item[] = [
     price: 45,
     img: ac_indoor,
     desc: '1.5 Horse Power AC (Indoor and Outdoor Unit)',
+    sold: sold,
   },
   {
     id: Math.random(),
