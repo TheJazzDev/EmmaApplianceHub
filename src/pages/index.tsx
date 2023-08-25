@@ -24,6 +24,17 @@ export default function Home() {
           </a>
           .{' '}
         </p>
+        <p className='text-paragraph font-medium text-base max-w-2xl lg:max-w-4xl mt-4 mb-8 mx-auto italic'>
+          Do you have something to advertise in this format? Reach out on WhatsApp{' '}
+          <a
+            href='https://wa.link/98ikdv'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-300'>
+            here
+          </a>
+          .{' '}
+        </p>
         <Items />
       </main>
     </>
