@@ -77,7 +77,7 @@ const ItemsArray: Item[] = [
     title: 'Hisense Fridge',
     price: 150,
     img: fridge,
-    desc: '262 L Volume Hisense Fridge + Freezer (Inside View)',
+    desc: '262 L Volume Hisense Fridge + Freezer',
   },
   {
     id: Math.random(),

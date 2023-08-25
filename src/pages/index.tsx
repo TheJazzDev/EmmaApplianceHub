@@ -26,13 +26,13 @@ export default function Home() {
         </p>
 
         <Items />
-        <p className='text-100 font-medium text-xl max-w-2xl lg:max-w-4xl my-8 mx-auto italic'>
+        <p className='text-red-500 font-medium text-xl max-w-2xl lg:max-w-4xl my-8 mx-auto italic'>
           Do you have something to advertise in this format? Reach out on WhatsApp{' '}
           <a
             href='https://wa.link/xd69z3'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-white'>
+            className='text-100'>
             here
           </a>
           .{' '}
