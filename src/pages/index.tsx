@@ -35,7 +35,6 @@ export default function Home() {
             className='text-100'>
             here
           </a>
-          .{' '}
         </p>
       </main>
     </>
