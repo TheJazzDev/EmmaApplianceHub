@@ -39,6 +39,7 @@ const ItemsArray: Item[] = [
     img: dinning_set,
     desc: '4 Seater Dinning Set',
     priority: true,
+    sold: sold,
   },
   {
     id: Math.random(),
@@ -118,6 +119,7 @@ const ItemsArray: Item[] = [
     price: 40,
     img: wardrobe,
     desc: '3 Door waldrobe',
+    sold: sold,
   },
 ];
 
