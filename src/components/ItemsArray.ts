@@ -71,6 +71,7 @@ const ItemsArray: Item[] = [
     price: 220,
     img: washing,
     desc: 'Nexus 12.0kg Automatic Washing Machine (Soak, Wash, Rinse & Spin)',
+    sold: sold,
   },
   {
     id: Math.random(),
