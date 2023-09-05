@@ -60,11 +60,11 @@ const ItemsArray: Item[] = [
   },
   {
     id: Math.random(),
-    title: 'Mattress',
+    title: 'BedFrame without backrest',
     price: 40,
     img: mattress2,
-    desc: '6 x 6 Bed Mattress',
-    sold: sold,
+    desc: '6 x 6 BedFrame without backrest',
+
   },
   {
     id: Math.random(),
@@ -102,6 +102,7 @@ const ItemsArray: Item[] = [
     price: 60,
     img: mattress1,
     desc: 'Vita Form 6 x 6 Bed Mattress',
+    sold: sold,
   },
   {
     id: Math.random(),
