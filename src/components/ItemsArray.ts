@@ -64,6 +64,7 @@ const ItemsArray: Item[] = [
     price: 40,
     img: mattress2,
     desc: '6 x 6 Bed Mattress',
+    sold: sold,
   },
   {
     id: Math.random(),
