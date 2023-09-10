@@ -64,7 +64,6 @@ const ItemsArray: Item[] = [
     price: 40,
     img: mattress2,
     desc: '6 x 6 BedFrame without backrest',
-
   },
   {
     id: Math.random(),
@@ -88,6 +87,7 @@ const ItemsArray: Item[] = [
     price: 65,
     img: generator,
     desc: '22 Litters INC 2500 Petrol Generator',
+    sold: sold,
   },
   {
     id: Math.random(),
